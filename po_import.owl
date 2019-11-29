@@ -1,0 +1,1011 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/po_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf (PO:0009025), borne on the stem (PO:0009047).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cauline leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf (PO:0009025) born in a circular pattern around a stem (PO:0009047) with compressed stem internodes (PO:0020142).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rosette leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004518 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0004518">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of plant tissue (PO:0009007) outside the vascular cambium (PO:0005598) or the xylem (PO:0005352); in older trees may be divided into dead outer bark and living inner bark, which consists of secondary phloem (PO:0005043).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bark</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0004542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025029"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A swollen shoot axis (PO:0025029) that grows horizontally at or below the substrate surface and produces shoots above and roots or rhizoids below.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhizome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0004543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025029"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025522"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shoot axis (PO:0025029) that develops from a branch (PO:0025073) and is radially enlarged for storage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot axis tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0004547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0004547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0004543"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shoot axis tuber (PO:0004543) that develops below ground.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subterranean shoot axis tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0005005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0005005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardinal organ part (PO:0025001) of a shoot axis (PO:0025029) that is between two shoot axis nodes (PO:0005004).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot axis internode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0006001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0006001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lateral plant organ (PO:0009008) produced by a shoot apical meristem (PO:0020148).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phyllome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0006338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0006338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025099"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf that is part of a plant embryo and is one of the first few leaves to develop from the embryonic shoot apical meristem.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0006339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0006339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf that is distinct from adult leaves, being characterized by particular anatomical traits namely, wax and trichome distribution, presence or absence of epidermal cell types, cell wall shape and biochemistry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">juvenile vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0006340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0006340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf characterized by particular anatomical traits namely, wax and trichome distribution, presence or absence of epidermal cell types, cell wall shape and biochemistry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adult vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0007520 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0007520">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025339"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stages of development of a root defined by characteristic morphological, structural, histological or other visible features.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root development stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0008018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0008018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf that is part of an heteroblastic series, and is characterized by anatomical features that are intermediate between juvenile and adult leaves.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transition vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that develops from a gynoecium (PO:0009062), or a single carpel (PO:0009030), and at maturity may have as parts one or more seeds (PO:0009010).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that consists predominantly of similarly specialized plant cells (PO:0009002) of one or more types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">portion of plant tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that is a functional unit, is a proper part of a whole plant (PO:0000003), and includes portions of plant tissue (PO:0009007) of at least two different types that derive from a common developmental path.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant organ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that develops from a plant ovule (PO:0020003) and has as parts a plant embryo (PO:0009009) enclosed in a seed coat (PO:0009088).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009011">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anatomical structure that is or was part of a plant, or was derived from a part of a plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009012">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stage in the life of a plant structure (PO:0009011) during which the plant structure undergoes developmental processes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant structure development stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leaf (PO:0025034) in a vascular plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardinal organ part (PO:0025001) that is the region at the distal end of either a peduncle or a pedicel where the floral appendages (e.g.: sepals, petals, stamens and pistils) are attached.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptacle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cup- or tube-shaped cardinal organ part, bearing perianth and stamens on its rim, so these arise above the base, and often above the top, of the ovary.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypanthium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that is the basal portion of a carpel (PO:0009030) or group of fused carpels (gynoecium; PO:0009062) and encloses the plant ovule(s) (PO:0020003).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant ovary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of plant tissue (PO:0009007) that is the outer layer (wall) of a fruit (PO:0009001), and develops from a plant ovary (PO:0009072) or a carpel (PO:0009030) wall.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pericarp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of plant tissue (PO:0009007) that is the outer layer of a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exocarp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of plant tissue (PO:0009007) that is the innermost differentiated layer of a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endocarp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A portion of plant tissue (PO:0009007) that is the middle layer of a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mesocarp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf (PO:0009025) formed at the first shoot node (PO:0005004) of a plant embryo (PO:0009009) or a seedling (PO:0000003).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cotyledon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025066"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stalk (PO:0025066) of a vascular leaf (PO:0009025).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">petiole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leaf in which the lamina is undivided.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leaf having two or more distinct leaflets that are evident as such from early in development.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0020043"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A once-compound leaf with leaflets borne along a rachis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinnate leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0020043"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A once-compound leaf divided into several leaflets which arise at the same point, there being no rachis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palmate leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0020142"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stem internode (PO:0020142) below the cotyledonary node (PO:0025321) and transitional to a root (PO:0009005) of a plant embryo (PO:0009009) or a seedling (PO:0000003).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypocotyl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0006340"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The last mature leaf before the inflorescence in a cereal crop plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flag leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0020142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0005005"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shoot axis internode (PO:0005005) that is part of a stem (PO:0009047).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stem internode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025498"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardinal part of multi-tissue plant structure (PO:0025498) that is a proper part of a plant organ (PO:0009008) and includes portions of plant tissue (PO:0009007) of at least two different types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal organ part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An axial plant organ (PO:0009008).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025497"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collective plant structure (PO:0025497) that is a proper part of a whole plant (PO:0000003), and is composed of two or more adjacent plant organs (PO:0009008) and the associated portions of plant tissue (PO:0009007).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collective plant organ structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant axis (PO:0025004) that is part of a shoot system (PO:0009006).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shoot axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0006001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A phyllome (PO:0006001) that is not associated with a reproductive structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardinal organ part (PO:0025001) that is elongated and sub-cylindrical to cylindrical and supports another cardinal organ part.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stalk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leaf (PO:0025034) in a non-vascular plant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that is part of an plant embryo (PO:0009009).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embryo plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leaf near the apex of a stem that is still rolled into a cylinder.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cigar leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A leaf that is a sclerified and pointed and lacks a lamina.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spine leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf that has increased activity of either the adaxial or abaxial meristem early in development, leading to absence of the opposite surface on the mature leaf.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unifacial vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025328"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unifacial leaf that is flat in cross section due to a lamina that develops in a median plane (perpendicular to the axis), rather a transverse plane (tangent to the axis) throughout all of part of the length of the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ensiform vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025328"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unifacial leaf that is round in cross section throughout all of part of the length of the leaf.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terete vascular leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0006340"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025333"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An adult ensiform leaf with a lamina that develops in a median plane, rather a transverse plane, throughout the length of the leaf and is a result of increased activity of the adaxial meristem early in development.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phyllode leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0008018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025333"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transition vascular leaf in which the basal portion of the leaf has unifacial lamina development in a median plane, similar to a phyllode, and the apical portion of the leaf develops leaflets similar to a juvenile leaf.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transition phyllode leaf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025571"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure development stage (PO:0025571) that has as primary participant a plant organ (PO:0009008) .</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant organ development stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009006"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A shoot system (PO:0009006) that has as parts a short, enlarged stem (PO:0009047) in which the shoot internodes (PO:0005005) do not elongate, and one or more buds (PO:0000055).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">corm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009006"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A short, enlarged shoot system (PO:0009006) that has as parts a short stem (PO:0009047) in which the shoot internodes (PO:0005005) do not elongate, and one or more buds (PO:0000055) enclosed by fleshy leaves (PO:0009025) or leaf bases (PO:0020040).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bulb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009025"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A vascular leaf that is slender and coiling and lacks a lamina.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leaf tendril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0020030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cotyledon (PO:0020030) that is part of a plant embryo (PO:0009009).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant embryo cotyledon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0020030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cotyledon (PO:0020030) that is part of a whole plant (PO:0000003) in the seedling development stage (PO:0007131).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seedling cotyledon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025475">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0007520"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A root development stage (PO:0007520) during which a coleorhiza (PO:0020034) emerges from the seed coat (PO:0009088).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coleorhiza emergence stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025476">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025522"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A root (PO:0009005) that develops from a tuberous root (PO:0025523) and is further radially enlarged for storage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tuberous root tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that is a proper part of a whole plant (PO:0000003) and includes two or more adjacent plant organs (PO:0009008) or adjacent cardinal organ parts (PO:0025001), along with any associated portions of plant tissue (PO:0009007).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collective plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025498">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that is a proper part of a multi-tissue plant structure (PO:0025496) and includes portions of plant tissues (PO:0009007) of at least two different types.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardinal part of multi-tissue plant structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025522 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025522">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant axis (PO:0025004) that is radially enlarged.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tuber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009012"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure development stage (PO:0009012) that has as primary participant a multi-tissue plant structure (PO:0025496).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure development stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that usually dehisce.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capsule fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through fruit locules (PO:0025270).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loculicidal capsule fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which dehisces through a fruit septa (PO:0025268).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">septicidal capsule fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through both the fruit septa (PO:0025268) and the fruit locules (PO:0025270).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coccarium capsule fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through pores on a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poricidal capsule fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030091"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A capsule fruit (PO:0030091) which at maturity dehisces through the release of a fruit operculum (PO:0025298).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circumscissile capsule fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030096"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A circumscissile capsule fruit (PO:0030096) which at maturity contains one seed (PO:0009010) that is not attached to a pericarp (PO:0009084).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">utricle capsule fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that separate into mericarps (PO:0020075).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schizocarp fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that are elongated into a wing-like structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">samara fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that dehisce along two fruit valves (PO:0000033).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">legume fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030100"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A legume fruit (PO:0030100) which at maturity separates into indehiscent, one-seeded segments.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loment fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that are not fused to a seed coat (PO:0009088).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nut fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a fleshy exocarp (PO:0009085), fleshy mesocarp (PO:0009087), and a stony endocarp (PO:0009086).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drupe fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that are fused to a seed coat (PO:0009088).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">caryopsis fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086) that dehisce along a single fruit valve (PO:0000033).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">follicle fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a gynoecium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), dry mesocarp (PO:0009087), and dry endocarp (PO:0009086), that dehisce along two fruit valves (PO:0000033) and separate from a persistent fruit replum (PO:0025267).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silique fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which develops from a carpel (PO:0009030) or gyneocium (PO:0009062) and at maturity comprises a dry exocarp (PO:0009085), a dry mesocarp (PO:0009087), and a dry endocarp (PO:0009086) that are connected to a seed coat (PO:0009088) by a funicle (PO:0020006).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">achene fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fruit (PO:0009001) which at maturity comprises a fleshy endocarp (PO:0009086), fleshy mesocarp (PO:0009087), and fleshy exocarp (PO:0009085).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">berry fruit</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.madaboutberries.com/types-of-berries.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A berry fruit (PO:0030108) which develops from a superior gynoecium (PO:0009062) and at maturity comprises a thickened exocarp (PO:0009085), thickened mesocarp (PO:0009087), and endocarp (PO:0009086), and has as parts juice sacs (PO:0006013) on a carpel adaxial epidermis (PO:0025618).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hesperidium fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A berry fruit (PO:0030108) which develops from an inferior gynoecium (PO:0009062) and at maturity comprises a fleshy exocarp (PO:0009085), fleshy mesocarp (PO:0009087), and hardened endocarp (PO:0009086) and has as a part a fleshy hypanthium (PO:0009065) which is indistinct from the exocarp (PO:0009085).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pome fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0030111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0030111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0030108"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A berry fruit (PO:0030108) which develops from an inferior carpel (PO:0009030) and at maturity comprises a fleshy exocarp (PO:0009085), fleshy mesocarp (PO:0009087), and fleshy endocarp (PO:0009086), and has as a part a hard receptacle (PO:0009064) which surrounds, and is indistinct from, the exocarp (PO:0009085).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pepo fruit</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

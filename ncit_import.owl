@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/foodon/imports/ncit_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/foodon/imports/ncit_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/foodon/imports/ncit_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14191">
+        <obo:IAO_0000115>The domesticated feline mammal, Felis catus, which is kept as a house pet.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14212">
+        <obo:IAO_0000115>Any member of four genera of the rodent family Cricetidae; short-tailed Old World burrowing rodents with large cheek pouches.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Hamster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14238">
+        <obo:IAO_0000115>Any of numerous species of small rodents belonging to the genus Mus and various related genera of the family Muridae.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Mouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C45305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45305">
+        <obo:IAO_0000115>A substance consisting of two or more substances mixed together (not in fixed proportions and not with chemical bonding).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Mixture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C80248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80248">
+        <obo:IAO_0000115>Any of the occasions for eating food that occur by custom or habit at more or less fixed times.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Meal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C80249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80248"/>
+        <obo:IAO_0000115>The first meal of the day (usually in the morning).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Breakfast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C80250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80248"/>
+        <obo:IAO_0000115>A midday meal sometimes also called dinner.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Lunch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C80251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80248"/>
+        <obo:IAO_0000115>The evening meal, usually the main meal of the day.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Supper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C944">
+        <obo:IAO_0000115>A group of organic food substances found in animals and plants in small quantities. They must be supplied in diet or dietary supplement and are essential for normal metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <rdfs:label>Vitamin</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
